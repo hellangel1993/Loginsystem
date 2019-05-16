@@ -26,6 +26,7 @@
 		android:layout_width="match_parent"
 		android:layout_height="0dp"
 		android:layout_weight="15"
+		android:background="@drawable/buttonsinginstyle"
 		android:id="@+id/btnSignIn"
 		android:textSize="@dimen/abc_text_size_button_material"
 		android:layout_marginLeft="20dp"
@@ -43,6 +44,7 @@
 		android:layout_width="match_parent"
 		android:layout_height="0dp"
 		android:layout_weight="15"
+		android:background="@drawable/buttonsignupstyle"
 		android:id="@+id/btnSignUp"
 		android:textSize="@dimen/abc_text_size_button_material"
 		android:layout_marginLeft="20dp"
@@ -55,6 +57,7 @@
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:id="@+id/progressBar1"
+			android:background="@drawable/progressbarstyle"
 			android:layout_centerInParent="true"
 			android:indeterminate="true"/>
 	</RelativeLayout>
